@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="title">
+      <img
+        src="https://image.newdaily.co.kr/site/data/img/2022/02/24/2022022400156_0.jpg"
+        alt="아메리칸 피자"
+      />
+    </h1>
+    <form action="index.html">
+      <h1>🛵 주문하실 지점을 선택해주세요</h1>
+      <div class="dropdown">
+        <button type="button" class="dropdown-toggle">
+          지점을 선택해주세요
+        </button>
+
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+            <button type="button" value="1" class="dropdown-option">
+              American피자 강남점
+            </button>
+          </li>
+          <li class="dropdown-item">
+            <button type="button" value="2" class="dropdown-option">
+              American피자 서초점
+            </button>
+          </li>
+          <li class="dropdown-item">
+            <button type="button" value="3" class="dropdown-option">
+              American피자 옥인점
+            </button>
+          </li>
+          <li class="dropdown-item">
+            <button type="button" value="4" class="dropdown-option">
+              American피자 제주시청점
+            </button>
+          </li>
+          <li class="dropdown-item">
+            <button type="button" value="5" class="dropdown-option">
+              American피자 제주이도점
+            </button>
+          </li>
+          <li class="dropdown-item">
+            <button type="button" value="6" class="dropdown-option">
+              American피자 제주함덕점
+            </button>
+          </li>
+        </ul>
+      </div>
+      <button type="submit" class="next-button" disabled>다음</button>
+    </form>
+    <script src="./mines.js"></script>
+  </body>
+</html>
