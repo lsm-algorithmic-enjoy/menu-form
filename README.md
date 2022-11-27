@@ -8,4 +8,4 @@
 
 # 프로젝트 실행 화면
 
-<img src="./Pizzamenu.png">
+<img src="Pizzamenu.png">
